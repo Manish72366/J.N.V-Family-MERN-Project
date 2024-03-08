@@ -1,0 +1,9 @@
+.stdData{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-around;
+   align-items: center;
+   background-image: url('../../public/photos/darkBg.jpg');
+	background-position: center;
+	background-size: cover;
+}

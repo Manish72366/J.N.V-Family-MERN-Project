@@ -1,0 +1,82 @@
+.prod{
+   padding: 95px;
+   margin: 0px -50px;
+}
+.card2 {
+    box-shadow: 0 0px 20px  rgb(48, 48, 48);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  .userImg{
+     height: 300px;
+     width: 300px;
+  }
+  .userDetails{
+    width: 100%;
+    /* box-shadow: 0 0 10px  grey; */
+  }
+  
+  .username{
+    color: #dfdfdf;
+    opacity: 0.8;
+    margin: 0 0 !important;
+    font-size: 2rem;
+  }
+  .sclName{
+    color: #dfdfdf;
+    opacity: 0.8;
+  }
+  .profile{
+    background-position: center;
+    background-size: cover;
+     object-fit: cover; /* Maintain aspect ratio */
+    width: 100%;
+    height: 100%;
+  }
+  .title2 {
+    color: #dfdfdf;
+    opacity: 0.8;
+    font-size: 18px;
+    margin-bottom: 0 !important;
+  }
+  .socialMed{
+    margin: 0 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .btnProd {
+    border: none;
+    outline: 0;
+    padding: 8px;
+    background: #66fcf1;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+  .lnk {
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0 8px;
+    color: black;
+  }
+  .btnProd:hover, .lnk:hover {
+    opacity: 0.7;
+    
+  }

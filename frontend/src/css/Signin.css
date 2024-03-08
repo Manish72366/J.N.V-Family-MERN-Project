@@ -1,0 +1,145 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+.reg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px;
+  background-image: url('../../public/photos/darkBg.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.container1 {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  padding: 25px;
+  border: 1px solid white;
+  border-radius: 10px;
+  backdrop-filter: blur(9px);
+}
+.container1 .hdr{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.container1 .form {
+  margin-top: 30px;
+}
+.form .input-box-sign {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box-sign label {
+  color: white;
+}
+.form :where(.input-box-sign input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent;
+  color: whitesmoke;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+  
+}
+.input-box-sign input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: #28a745;
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.opt{
+  background-color: black;
+  backdrop-filter: blur(9px);
+  color: white;
+}
+.gender label {
+  color: white;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.uploadImg {
+  width: 100%;
+  overflow: hidden; /* This ensures the circular border is applied */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.upld {
+  margin-top: 5px;
+  width: 20%;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: cover;
+}
+.userRegImg{
+  height: 40px;
+  width: 50%;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color:white;
+  font-size: 1rem;
+  background-color: transparent;
+}
+.formBtn {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #28a745;
+}
+.formBtn:hover {
+  background: #3dff6a;
+}
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}

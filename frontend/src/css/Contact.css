@@ -1,0 +1,24 @@
+.senderForm  {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .senderForm > textarea {
+    height: 350px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    vertical-align: top;
+  }
+  
+  
+  .senderForm  > button {
+    height: 30px;
+    width: 100px;
+  }

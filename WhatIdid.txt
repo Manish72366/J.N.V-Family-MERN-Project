@@ -1,0 +1,7 @@
+-> npm Init for Mern project for both frontend and backend can use so inside the mern project write npm init 
+-> npm i express mongoose dotenv
+
+// npm i axios (for fetching the data from backend)
+npm i axios react-alert-template-basic react-helmet react-redux redux redux-devtools-extension react-router-dom
+one by one you can dowload all the extension for frontend and please write --force at last if that dependies is not dowloading...
+// stripe package for integration..
